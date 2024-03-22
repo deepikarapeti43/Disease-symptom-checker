@@ -15,7 +15,7 @@ precautions_dict = dict(zip(precautions_data['Disease'], precautions_data.iloc[:
 def check_symptoms(symptoms):
     possible_diseases = []
     for index, row in data.iterrows():
-        disease_symptoms = [symptom.strip().lower() for symptom in row[1:].dropna().tolist()]  # Make case-insensitive and strip spaces
+        disease_symptoms = [str(symptom).strip().lower() for symptom in row[1:].dropna().tolist()]
         print("Disease Symptoms:", disease_symptoms)  # Debugging statement
         print("User Symptoms:", symptoms)  # Debugging statement
         if set(symptoms).issubset(disease_symptoms):
@@ -32,8 +32,6 @@ st.image(background_image, use_column_width=True)
 st.write(
     """
     This app allows you to enter your symptoms and receive suggestions for possible diseases.
-    Simply enter your symptoms in the text box below, select your gender, and enter your age.
-    Then click the "Check Symptoms" button to see the suggested diseases.
     
     """
 )
@@ -57,9 +55,12 @@ if st.button("Check Symptoms"):
         if unique_diseases:
             st.success(f"Suggested diseases: {', '.join(unique_diseases)}")
             for disease in unique_diseases:
-                st.subheader("Precautions for {}: ".format(disease))
-                st.write(precautions_dict.get(disease, "Precautions not available"))
+                st.subheader(f"Precautions for {disease}:")
+                precautions = precautions_dict.get(disease, "Precautions not available")
+                for index, precaution in enumerate(precautions, 1):
+                    st.write(precaution)
         else:
             st.info("No matching diseases found.")
     else:
         st.warning("Please enter your symptoms.")
+        
