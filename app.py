@@ -4,10 +4,10 @@ from PIL import Image
 
 # Read the dataset
 data = pd.read_csv(r"E:\Project 4\Disease-symptom-checker\disease_and_symptoms_data\DiseaseandSymptoms_new.csv")
-precautions_data = pd.read_csv(r"E:\Project 4\Disease-symptom-checker\disease_and_symptoms_data\Disease precaution.csv")
+remedies_data = pd.read_csv(r"E:\Project 4\Disease-symptom-checker\disease_and_symptoms_data\Disease precaution.csv")
 
 # Create a dictionary to store precautions for each disease
-precautions_dict = dict(zip(precautions_data['Disease'], precautions_data.iloc[:, 1:].values.tolist()))
+remedies_dict = dict(zip(remedies_data['Disease'], remedies_data.iloc[:, 1:].values.tolist()))
 
 
 # Create a dictionary to store precautions for each disease
@@ -49,18 +49,24 @@ symptoms_input = st.text_input("Enter your symptoms", "")
 
 if st.button("Check Symptoms"):
     if symptoms_input:
-        user_symptoms = [s.strip() for s in symptoms_input.split(',')]  # Strip spaces from input
-        suggested_diseases = check_symptoms(user_symptoms)
-        unique_diseases = set(suggested_diseases)
-        if unique_diseases:
-            st.success(f"Suggested diseases: {', '.join(unique_diseases)}")
-            for disease in unique_diseases:
-                st.subheader(f"Precautions for {disease}:")
-                precautions = precautions_dict.get(disease, "Precautions not available")
-                for index, precaution in enumerate(precautions, 1):
-                    st.write(precaution)
+        user_symptoms = [s.strip() for s in symptoms_input.split(',')]  
+        if age < 14:
+            st.warning("Please consult a doctor as the patient is less than 14 years old.")
         else:
-            st.info("No matching diseases found.")
+            suggested_diseases = check_symptoms(user_symptoms)
+            unique_diseases = set(suggested_diseases)
+            if unique_diseases:
+                st.success(f"Suggested diseases: {', '.join(unique_diseases)}")
+                for disease in unique_diseases:
+                    st.subheader(f"Remedies for {disease}:")
+                    remedies = remedies_dict.get(disease, "Remedies not available")
+                    for index, remedy in enumerate(remedies, 1):
+                        st.write(remedy)
+            else:
+                st.info("No matching diseases found.")
     else:
         st.warning("Please enter your symptoms.")
+
+
+        
         
