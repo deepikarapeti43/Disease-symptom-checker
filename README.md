@@ -32,31 +32,32 @@ Each model was then optimized for performance.
 Additionally, a data visualization tool, Streamlit, was used to show how the input of the various symptoms predicted disease, and the precautions that should be taken for each disease predicted.
 
 ## Developed Disease Symptom Checker Web App:
-** Objective:**
-To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
 
-** Overview of tools and libraries used:**
-  Streamlit: For building the interactive web application.
+1. ** Objective:**
+      To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
 
-  Pandas: For data manipulation and analysis.
+2. ** Overview of tools and libraries used:**
+      Streamlit: For building the interactive web application.
 
-  PIL (Python Imaging Library): For handling image files.
+      Pandas: For data manipulation and analysis.
 
-  PostgreSQL: For data cleansing and preprocessing.
+      PIL (Python Imaging Library): For handling image files.
 
-** User Inputs:**
-Select gender using a dropdown.
-Enter age using a numeric input field.
-Input symptoms using a text input box.
+      PostgreSQL: For data cleansing and preprocessing.
 
-** Output:**
-Success message for suggested diseases.
-Subheaders and remedy lists for each suggested disease.
-Information message if no matching diseases are found.
-Warning message if symptoms are not provided.
-Warning message if age is below 14 yrs old.
+3. ** User Inputs:**
+      Select gender using a dropdown.
+      Enter age using a numeric input field.
+      Input symptoms using a text input box.
 
-Here is the link to the App : http://192.168.0.11:8501/
+4. ** Output:**
+      Success message for suggested diseases.
+      Subheaders and remedy lists for each suggested disease.
+      Information message if no matching diseases are found.
+      Warning message if symptoms are not provided.
+      Warning message if age is below 14 yrs old.
+
+      Here is the link to the App : http://192.168.0.11:8501/
 
 ## Data Visualizations using Tableau:
 https://public.tableau.com/app/profile/deepak.adari1615/viz/Diseasesymptomchecker/Story1
