@@ -18,8 +18,12 @@ To create a web application that allows users to input symptoms and receive sugg
 
 * Overview of tools and libraries used:
 Streamlit: For building the interactive web application.
+
 Pandas: For data manipulation and analysis.
+
 PIL (Python Imaging Library): For handling image files.
+
+PostgreSQL: For data cleansing and preprocessing.
 
 * User Inputs:
 Select gender using a dropdown.
