@@ -1,4 +1,4 @@
-### Disease Symptom Checker
+## **Disease Symptom Checker**
 
 ## Overview:
 
