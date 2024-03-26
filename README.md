@@ -8,6 +8,7 @@ The data were retreived from Kaggle. The first of two .csv files contained a col
 
 The team utilized multiple machine learning algorithms to determine the best fit for the data described above. 
 The three algorithms tested included: 
+
 Decision tree
 
 Random forest classifier
