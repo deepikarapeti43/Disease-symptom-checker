@@ -17,13 +17,13 @@ Additionally, a data visualization tool, Streamlit, was used to show how the inp
 To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
 
 * Overview of tools and libraries used:
-Streamlit: For building the interactive web application.
+  Streamlit: For building the interactive web application.
 
-Pandas: For data manipulation and analysis.
+  Pandas: For data manipulation and analysis.
 
-PIL (Python Imaging Library): For handling image files.
+  PIL (Python Imaging Library): For handling image files.
 
-PostgreSQL: For data cleansing and preprocessing.
+  PostgreSQL: For data cleansing and preprocessing.
 
 * User Inputs:
 Select gender using a dropdown.
@@ -41,6 +41,10 @@ Here is the link to the App : http://192.168.0.11:8501/
 
 ## Data Visualizations using Tableau :
 https://public.tableau.com/app/profile/deepak.adari1615/viz/Diseasesymptomchecker/Story1
+
+## Google documention :
+https://docs.google.com/document/d/1sVMmcmleB0XUTIAwtON-VRb7RAYU554BMuHMnAr2JJA/edit
+
 
 
 
