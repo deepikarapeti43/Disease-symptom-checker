@@ -12,7 +12,7 @@ Each model was then optimized for performance.
 
 Additionally, a data visualization tool, Streamlit, was used to show how the input of the various symptoms predicted disease, and the precautions that should be taken for each disease predicted.
 
-Developed Disease Symptom Checker Web App
+## Developed Disease Symptom Checker Web App :
 * Objective: 
 To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
 
