@@ -7,7 +7,6 @@ This project is centered on developing a machine learning model that could predi
 The data were retreived from Kaggle. The first of two .csv files contained a column of diseases and 17 additional columns that contained symptoms. The second .csv file contain remedies associated with each diesase. The data were loaded into jupyter notebook using a sqlite database. Once loaded the data were cleaned and standardized. White space was removed from string values, recoded, and then standardized using the standard scaler.
 
 The team utilized multiple machine learning algorithms to determine the best fit for the data described above. The three algorithms tested included: 
-The team conducted an extensive analysis using various machine learning algorithms to find the best fit for the provided dataset. Three primary algorithms were tested:
 
 1. **Decision Tree**
 2. **Random Forest Classifier**
@@ -33,10 +32,10 @@ Each model was then optimized for performance.
 Additionally, a data visualization tool, Streamlit, was used to show how the input of the various symptoms predicted disease, and the precautions that should be taken for each disease predicted.
 
 ## Developed Disease Symptom Checker Web App:
-* Objective: 
+** Objective:**
 To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
 
-* Overview of tools and libraries used:
+** Overview of tools and libraries used:**
   Streamlit: For building the interactive web application.
 
   Pandas: For data manipulation and analysis.
@@ -45,12 +44,12 @@ To create a web application that allows users to input symptoms and receive sugg
 
   PostgreSQL: For data cleansing and preprocessing.
 
-* User Inputs:
+** User Inputs:**
 Select gender using a dropdown.
 Enter age using a numeric input field.
 Input symptoms using a text input box.
 
-* Output:
+** Output:**
 Success message for suggested diseases.
 Subheaders and remedy lists for each suggested disease.
 Information message if no matching diseases are found.
