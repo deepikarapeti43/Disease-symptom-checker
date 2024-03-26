@@ -6,7 +6,11 @@ This project is centered on developing a machine learning model that could predi
 
 The data were retreived from Kaggle. The first of two .csv files contained a column of diseases and 17 additional columns that contained symptoms. The second .csv file contain remedies associated with each diesase. The data were loaded into jupyter notebook using a sqlite database. Once loaded the data were cleaned and standardized. White space was removed from string values, recoded, and then standardized using the standard scaler.
 
-The team utilized multiple machine learning algorithms to determine the best fit for the data described above. The three algorithms tested included: decision tree, random forest, and logistic regression.
+The team utilized multiple machine learning algorithms to determine the best fit for the data described above. 
+The three algorithms tested included: 
+Decision tree
+Random forest classifier
+Logistic regression
 
 Each model was then optimized for performance.
 
