@@ -1,6 +1,6 @@
 ## Disease Symptom Checker
 
-##Overview
+## Overview
 
 This project centered on developing a machine learning model that could predict disease (target) based off of a set of symptoms (features).
 
