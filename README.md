@@ -12,7 +12,7 @@ Each model was then optimized for performance.
 
 Additionally, a data visualization tool, Streamlit, was used to show how the input of the various symptoms predicted disease, and the precautions that should be taken for each disease predicted.
 
-## Developed Disease Symptom Checker Web App :
+## Developed Disease Symptom Checker Web App:
 * Objective: 
 To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
 
@@ -30,7 +30,7 @@ Select gender using a dropdown.
 Enter age using a numeric input field.
 Input symptoms using a text input box.
 
-* Output :
+* Output:
 Success message for suggested diseases.
 Subheaders and remedy lists for each suggested disease.
 Information message if no matching diseases are found.
@@ -39,11 +39,14 @@ Warning message if age is below 14 yrs old.
 
 Here is the link to the App : http://192.168.0.11:8501/
 
-## Data Visualizations using Tableau :
+## Data Visualizations using Tableau:
 https://public.tableau.com/app/profile/deepak.adari1615/viz/Diseasesymptomchecker/Story1
 
-## Google documention :
+## Google documention:
 https://docs.google.com/document/d/1sVMmcmleB0XUTIAwtON-VRb7RAYU554BMuHMnAr2JJA/edit
+
+## Project Presentation:
+https://onedrive.live.com/edit?id=695F4863786D5C8A!14223&resid=695F4863786D5C8A!14223&ithint=file%2cpptx&authkey=!AAyH-bj8LOpzhV8&wdo=2&cid=695f4863786d5c8a
 
 
 
