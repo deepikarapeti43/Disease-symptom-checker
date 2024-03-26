@@ -1,6 +1,6 @@
-## Disease Symptom Checker
+### Disease Symptom Checker
 
-## Overview
+## Overview:
 
 This project is centered on developing a machine learning model that could predict disease (target) based off of a set of symptoms (features).
 
@@ -14,7 +14,7 @@ The team utilized multiple machine learning algorithms to determine the best fit
 
 Each algorithm was evaluated for its performance on the dataset to determine its effectiveness in solving the problem at hand.
 
-## Methodology
+## Methodology:
 
 1. **Selection of Algorithms:** The team chose these three algorithms based on their suitability for the task and their different approaches to modeling the data.
 
@@ -24,7 +24,7 @@ Each algorithm was evaluated for its performance on the dataset to determine its
 
 4. **Comparison:** The performance of each optimized model was compared to determine the most effective algorithm for the dataset. This comparison guided the selection of the final model for deployment or further analysis.
 
-## Results
+## Results:
 
 The analysis yielded insights into the strengths and weaknesses of each algorithm, providing valuable information for decision-making in model selection and deployment.
 Each model was then optimized for performance.
