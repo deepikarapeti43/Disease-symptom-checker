@@ -35,4 +35,8 @@ Warning message if age is below 14 yrs old.
 
 Here is the link to the App : http://192.168.0.11:8501/
 
+## Data Visualizations using Tableau :
+https://public.tableau.com/app/profile/deepak.adari1615/viz/Diseasesymptomchecker/Story1
+
+
 
