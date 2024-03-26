@@ -24,7 +24,7 @@ Each algorithm was evaluated for its performance on the dataset to determine its
 
 4. **Comparison:** The performance of each optimized model was compared to determine the most effective algorithm for the dataset. This comparison guided the selection of the final model for deployment or further analysis.
 
-### Results
+## Results
 
 The analysis yielded insights into the strengths and weaknesses of each algorithm, providing valuable information for decision-making in model selection and deployment.
 Each model was then optimized for performance.
@@ -37,6 +37,7 @@ Additionally, a data visualization tool, Streamlit, was used to show how the inp
      To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
 
 2. **Overview of tools and libraries used:**
+   
      Streamlit: For building the interactive web application.
 
      Pandas: For data manipulation and analysis.
@@ -45,12 +46,12 @@ Additionally, a data visualization tool, Streamlit, was used to show how the inp
 
      PostgreSQL: For data cleansing and preprocessing.
 
-3. **User Inputs:**
+4. **User Inputs:**
      Select gender using a dropdown.
      Enter age using a numeric input field.
      Input symptoms using a text input box.
 
-4. **Output:**
+5. **Output:**
      Success message for suggested diseases.
      Subheaders and remedy lists for each suggested disease.
      Information message if no matching diseases are found.
