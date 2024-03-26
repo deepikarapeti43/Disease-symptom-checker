@@ -33,31 +33,31 @@ Additionally, a data visualization tool, Streamlit, was used to show how the inp
 
 ## Developed Disease Symptom Checker Web App:
 
-1. ** Objective:**
-      To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
+1. **Objective:**
+     To create a web application that allows users to input symptoms and receive suggestions for possible diseases along with remedies.
 
-2. ** Overview of tools and libraries used:**
-      Streamlit: For building the interactive web application.
+2. **Overview of tools and libraries used:**
+     Streamlit: For building the interactive web application.
 
-      Pandas: For data manipulation and analysis.
+     Pandas: For data manipulation and analysis.
 
-      PIL (Python Imaging Library): For handling image files.
+     PIL (Python Imaging Library): For handling image files.
 
-      PostgreSQL: For data cleansing and preprocessing.
+     PostgreSQL: For data cleansing and preprocessing.
 
-3. ** User Inputs:**
-      Select gender using a dropdown.
-      Enter age using a numeric input field.
-      Input symptoms using a text input box.
+3. **User Inputs:**
+     Select gender using a dropdown.
+     Enter age using a numeric input field.
+     Input symptoms using a text input box.
 
-4. ** Output:**
-      Success message for suggested diseases.
-      Subheaders and remedy lists for each suggested disease.
-      Information message if no matching diseases are found.
-      Warning message if symptoms are not provided.
-      Warning message if age is below 14 yrs old.
+4. **Output:**
+     Success message for suggested diseases.
+     Subheaders and remedy lists for each suggested disease.
+     Information message if no matching diseases are found.
+     Warning message if symptoms are not provided.
+     Warning message if age is below 14 yrs old.
 
-      Here is the link to the App : http://192.168.0.11:8501/
+     Here is the link to the App : http://192.168.0.11:8501/
 
 ## Data Visualizations using Tableau:
 https://public.tableau.com/app/profile/deepak.adari1615/viz/Diseasesymptomchecker/Story1
